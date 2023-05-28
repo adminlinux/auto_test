@@ -38,3 +38,5 @@ encrypted_data = public_key.encrypt(
 # Base64编码输出加密后的密文
 encrypted_data_base64 = base64.b64encode(encrypted_data).decode('utf-8')
 print("加密后的密文(Base64编码)：", encrypted_data_base64)
+
+print('ok')
